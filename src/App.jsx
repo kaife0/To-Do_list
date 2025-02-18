@@ -7,7 +7,7 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [showFinished, setShowFinished] = useState(true);
 
-  // Load todos from local storage
+  
   useEffect(() => {
     const todoString = localStorage.getItem("todos");
     if (todoString) {
