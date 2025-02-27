@@ -77,7 +77,7 @@ function App() {
           <input
             onChange={(e) => setTodo(e.target.value)}
             value={todo}
-            type="text"
+            type="text" 
             className='w-[60vw] h-8 rounded-md my-5'
           />
           <button
